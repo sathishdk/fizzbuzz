@@ -22,7 +22,6 @@ app.controller("FizzBuzzCtrl", function($scope){
         $scope.output.push(i);
       }
     }
-    console.log($scope.output);
   }
   
 });
