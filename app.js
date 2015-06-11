@@ -9,14 +9,14 @@ app.controller("FizzBuzzCtrl", function($scope){
     $scope.fizz = i%3;
     $scope.buzz = i%5;
     $scope.fizzBuzz = i%15;
-      if ($scope.fizz === 0) {
+      if ($scope.fizz === 0 && $scope.buzz === 0 && $scope.fizzBuzz === 0) {
+        $scope.output.push("FIZZBUZZ");
+      }
+      else if ($scope.fizz === 0) {
         $scope.output.push("FIZZ");
       }
       else if ($scope.buzz === 0) {
         $scope.output.push("BUZZ");
-      }
-      else if ($scope.fizz === 0 && $scope.buzz === 0 && $scope.fizzBuzz === 0) {
-        $scope.output.push("FIZZBUZZ");
       }
       else {
         $scope.output.push(i);
