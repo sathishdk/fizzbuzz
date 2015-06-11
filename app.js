@@ -15,7 +15,7 @@ app.controller("FizzBuzzCtrl", function($scope){
       else if ($scope.buzz === 0) {
         $scope.output.push("BUZZ");
       }
-      else if ($scope.fizzBuzz === 0) {
+      else if ($scope.fizz === 0 && $scope.buzz === 0 && $scope.fizzBuzz === 0) {
         $scope.output.push("FIZZBUZZ");
       }
       else {
