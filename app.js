@@ -4,7 +4,7 @@ app.controller("FizzBuzzCtrl", function($scope){
   
   $scope.output = [];
   
-  var fizzBuzz = function(){
+  $scope.fizzBuzz = function(){
     for (var i = $scope.firstNo; i <= $scope.secondNo; i++){
     $scope.fizz = i%3;
     $scope.buzz = i%5;
