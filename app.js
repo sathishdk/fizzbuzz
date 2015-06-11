@@ -10,13 +10,13 @@ app.controller("FizzBuzzCtrl", function($scope){
     $scope.buzz = i%5;
     $scope.fizzBuzz = i%15;
       if ($scope.fizz === 0) {
-        $scope.output.push("fizz");
+        $scope.output.push("<strong>fizz</strong><br/>");
       }
       else if ($scope.buzz === 0) {
-        $scope.output.push("buzz");
+        $scope.output.push("<strong>buzz</strong><br/>");
       }
       else if ($scope.fizzBuzz === 0) {
-        $scope.output.push("fizzbuzz");
+        $scope.output.push("<strong>fizzbuzz</strong><br/>");
       }
       else {
         $scope.output.push(i);
