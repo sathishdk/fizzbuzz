@@ -16,3 +16,8 @@ body{
   padding:75px 0px 5px 0px;
   margin:0px 0px 20px 0px;
 }
+.output{
+  border-bottom: 1px dotted #555;
+  padding:75px 0px 5px 0px;
+  margin:0px 0px 20px 0px;
+}
